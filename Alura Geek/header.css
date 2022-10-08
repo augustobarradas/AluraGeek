@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    height: 72px;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+
+.list__header--item {
+    border: 1px solid var(--blue);
+    padding: 1em;
+    text-decoration: none;
+}
+
+.list__header--link {
+    text-decoration: none;
+    color: var(--blue);
+}

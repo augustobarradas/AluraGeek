@@ -1,0 +1,12 @@
+:root {
+    --blue: #2A7AE4;
+    --mainfont: "Raleway";
+    --lightblue: #D4E4FA;
+    --black: #464646;
+
+}
+
+body {
+    font-family: var(--mainfont);
+    
+}

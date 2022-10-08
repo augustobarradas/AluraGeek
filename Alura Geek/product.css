@@ -1,0 +1,45 @@
+.product__items {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__items--starwars--list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.product__title--See--all {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+.product__test {
+    padding: 1em;
+}
+
+.product__XYZ {
+    padding-top: 0.5em;
+    font-size: 14px;
+}
+
+.product__XYZ--price {
+    padding: 0.5em;
+    font-size: 16px;
+}
+
+.product__XYZ--link {
+    padding: 0.5em;
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 14px;
+}
+
+.product__items--console--list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
