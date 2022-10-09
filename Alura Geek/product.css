@@ -1,14 +1,16 @@
 .product__items {
     display: flex;
-    padding: 1em;
+    padding: 1em 1.5em 0.2em 1.5em;
     justify-content: space-between;
     align-items: center;
+    font-weight: 700;
 }
 
 .product__items--starwars--list {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 }
 
 .product__title--See--all {
@@ -26,15 +28,16 @@
 }
 
 .product__XYZ--price {
-    padding: 0.5em;
+    padding: 1em 0;
     font-size: 16px;
 }
 
 .product__XYZ--link {
-    padding: 0.5em;
+    padding: 0.5em 0;
     text-decoration: none;
     color: var(--blue);
     font-size: 14px;
+    font-weight: bold;
 }
 
 .product__items--console--list {

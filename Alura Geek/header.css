@@ -7,6 +7,9 @@
     background: #FFFFFF;
 }
 
+.container__logo {
+    width: 33%;
+}
 
 .list__header--item {
     border: 1px solid var(--blue);
@@ -17,4 +20,6 @@
 .list__header--link {
     text-decoration: none;
     color: var(--blue);
+    padding: 0 2em;
 }
+
