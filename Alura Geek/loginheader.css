@@ -22,6 +22,10 @@
     padding: 0 2em;
 }
 
+.header__login--logo {
+    width: 30%;
+}
+
 .header__search--box {
     display: none;
 }
@@ -50,15 +54,20 @@
         background-color: #F5F5F5;
         border: 1px solid var(--branco);
         color: var(--branco);
-        border-radius: 24px;
-        padding: 1em;
-        width: 35%;
+        border-radius: 50px;
+        padding: 0.5em;
+        width: 272px;
+
     }
 
     .header__search--box::placeholder {
         background: url(./img/SearchLogo.svg) no-repeat;
         background-position-x: right;
-    }    
+    }
+    
+    .header__login--logo {
+        width: 18%;
+    }
 
 }
 
@@ -66,4 +75,22 @@
     .container {
         margin: 0em 9em;
     }
+
+    .header__login {
+        display: flex;
+    }
+
+    .banner__button {
+        justify-content: center;
+    }
+
+    .banner__info {
+        flex-direction: unset;
+        justify-content: space-between;
+    }
+
+    .banner {
+        padding: 2em 9em 1em 9em;
+    }
+
 }

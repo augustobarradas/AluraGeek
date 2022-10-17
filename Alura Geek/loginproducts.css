@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    background: #e5e5e5;
 }
 
 .product__title--See--all {
@@ -30,14 +31,14 @@
 .product__XYZ--price {
     padding: 1em 0;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .product__XYZ--link {
     padding: 0.5em 0;
     text-decoration: none;
-    color: var(--blue);
+    color: black;
     font-size: 14px;
-    font-weight: bold;
 }
 
 .product__items--console--list {
@@ -46,17 +47,12 @@
     width: 100%;
 }
 
-.product__items--starwars__5, .product__items--starwars__6 {
-    display: none;
+.product__image {
+    width: 156px;
+    height: 174px;
 }
 
-.product__items--console__5, .product__items--console__6 {
-    display: none;
-}
 
-.product__items--diversos__5, .product__items--diversos__6 {
-    display: none;
-}
 
 
 @media screen and (min-width: 769px) {
@@ -66,18 +62,6 @@
 
     .product__list {
         padding: 0.2em;
-    }
-    
-    .product__items--starwars__5, .product__items--starwars__6 {
-       display: grid;
-    }
-
-    .product__items--console__5, .product__items--console__6 {
-        display: grid;
-    }
-    
-    .product__items--diversos__5, .product__items--diversos__6 {
-        display: grid;
     }
 
     .product__items {

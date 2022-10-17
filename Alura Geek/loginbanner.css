@@ -1,27 +1,19 @@
 .banner {
     width: auto;
-    height: 192px;
-    background-image:  url("./img/banner-image.png");
-    background-size: cover;
-    background-position: center;
-    padding: 1em;
+    padding: 2em 2em 1em 2em;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    background: #e5e5e5;
 }
 
 .banner__info {
-    color: white;
+    color: black;
 }
 
 .banner__info--first {
     padding-bottom: 0.5em;
     font-size: 22px;
-}
-
-.banner__info--second {
-    padding-bottom: 0.5em;
-    font-size: 14px;
 }
 
 .banner__button {
@@ -33,6 +25,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding: 0 1em;
 }
 
 .banner__link {
@@ -44,8 +37,9 @@
 @media screen and (min-width: 480px) {
     .banner__info--first {
         display: flex;
-        font-size: 52px;
+        font-size: 22px;
         padding-bottom: 0;
+        align-items: end;
     }
 
     .banner__info--second {
@@ -57,16 +51,34 @@
         width: auto;
     }
 
+    .banner__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 @media screen and (min-width: 769px) {
     .banner__info {
         display: flex;
         flex-direction: column;
-        margin-left: 8.5em;
+        align-items: center;
     }
 
     .banner__button {
         margin-left: initial;
+    }
+
+    .banner__button {
+        justify-content: center;
+    }
+
+    .banner__info {
+        flex-direction: unset;
+        justify-content: space-between;
+    }
+
+    .banner {
+        padding: 3em 9em 1em 9em;
     }
 }
